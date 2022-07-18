@@ -1,0 +1,32 @@
+.wrapper{
+    position: absolute;
+    z-index: 2;
+    top: 22vh;
+    width: 70vw;
+    background: transparent;
+    height: 74%;
+    left: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
+.tabs{
+    position: absolute;
+    top: 15vh;
+    left:20vw;
+    display: flex;
+    z-index: 6;
+
+}
+.tabs h3{
+    margin-left: 3vw;
+    margin-top: 0;
+}
+.active{
+    font-weight: 900;
+    border-bottom: 4px green solid;
+}
